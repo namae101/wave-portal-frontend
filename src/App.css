@@ -1,0 +1,65 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+body {
+   background: rgb(11,37,171);
+background: radial-gradient(circle, rgba(11,37,171,1) 0%, rgba(51,40,42,1) 100%);
+color: white;
+
+}
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.bio {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 8px;
+  margin-bottom: 8px
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background: lightgreen;
+  color:black;
+  font-weight: bold;
+}
+.waveButton:disabled {
+  cursor: default;
+  background: grey;
+}
+
+
+.waveTextInput {
+  height: 5rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.wavesMsg {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
