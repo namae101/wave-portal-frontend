@@ -68,6 +68,7 @@ const App = () => {
 
       console.log("Connected", accounts[0]);
       await setCurrentAccount(accounts[0]);
+      await getAllWaves();
     } catch (error) {
       console.log(error);
     }

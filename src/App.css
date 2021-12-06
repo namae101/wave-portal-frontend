@@ -3,6 +3,7 @@
   justify-content: center;
   width: 100%;
   margin-top: 64px;
+  padding-bottom: 64px;
 }
 body {
    background: rgb(11,37,171);
